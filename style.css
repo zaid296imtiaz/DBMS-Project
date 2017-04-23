@@ -1,0 +1,24 @@
+#banner{
+    width: 100%;    
+}
+
+#logo{
+    display: inline;
+}
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.homeBody{
+    width: 80%;
+    margin: 0 auto;
+}
+/*
+.homeBody ul{
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
+}*/
