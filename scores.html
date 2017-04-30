@@ -1,39 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
+
 <body>
-    <h1>
-        Scores
-    </h1>
-    <!--<div>
-<ul class="images">
-        <li id="0"><img src="images/heeba.png" class="widthHeight"/></li>
-        <li id="1"><img src="images/sportsWorld.png" class="widthHeight"/></li>
-        <li id="2"><img src="images/homeBanner.png" class="widthHeight"/></li>
-        <!--<li id="3"><img src="images/4.jpg" class="widthHeight"/></li>-->
-    <!--</ul>
-    <a href="javascript:void(0);" onClick="Next();"> &gt;&gt; </a>
-    </div>
-
-<script>
-    var images=["heeba.png","homeBanner.png"];
-
-    var totalimages = 2;
-    var currentimages = 0;
-   showNext();
-    function showNext() {
-       if (currentImage == totalImages) currentImage = 0;
-            document.getElementById("slider").innerHTML = "<img src='images/" + images[currentImage] + "' class='setValue' />"
-            currentImage++;
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*font-size: 18px;*/
+            padding: 0;
+            margin: 0;
         }
+        
+        li {
+            display: inline;
+            padding: 10px;
+            margin-left: 90px;
+            /*background-color: lightcyan;*/
+        }
+        
+        .navBar a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 20px;
+        }
+        
+        .navBar a:hover {
+            color: #ffffff;
+            background-color: lightgreen;
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        
+        ul {
+            background-color: mediumseagreen;
+            padding: 20px;
+            /*width: 100%;*/
+            margin: 0;
+            margin-top: -4px;
+        }
+        
+        #last15Head {
+            font-size: 48px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .scoreTable th {
+            border: 1px solid;
+        }
+        
+        .scoreTable {
+            margin-left: 10px;
+            border-collapse: collapse;
+            display: inline;
+            
+        }
+        
+    </style>
+    <ul class="navBar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="leagues.html">Leagues</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="scores.html">Scores</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+    <h1 id="last15Head">Last 15 day scores</h1>
     
-</script>
-    </script>-->-->
+                    <table class="scoreTable">
+                    <tr>
+                        <td colspan="3"><img src="images/laliga2.png" alt="logo"></td>
+                        <td></td>
+                        <td colspan="3"><img src="images/CL.png" alt="logo"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <th>Score</th>
+                        <th>Team</th>
+                        <th class="empty">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                        <th>Team</th>
+                        <th>Score</th>
+                        <th>Team</th>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                           <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+
+               
+
+                 
+                <!--<table>
+                         <tr>
+                        <th>Team</th>
+                        <th>Score</th>
+                        <th>Team</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+                -->
 </body>
 
 </html>

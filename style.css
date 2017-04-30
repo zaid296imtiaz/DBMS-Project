@@ -2,7 +2,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     /*font-size: 18px;*/
     padding: 0;
-    margin: 0;
+    margin: 0;   
+}
+#colorHome{
+    /*background-color: #000000;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#000000));
+    background-image: -webkit-linear-gradient(top, #ffffff, #000000);
+    background-image: -moz-linear-gradient(top, #ffffff, #000000);
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
 }
 
 #banner{
@@ -22,7 +29,7 @@ body{
 .homeBody{
     width: 83%;
     margin: 0 auto;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
 #mainPic{
@@ -90,7 +97,68 @@ ul{
 #linksContainer{
     width: 90%;
     margin: 0 auto;
+    margin-top: 50px;
+     /*border: 1px solid #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #000000, #ffffff);
+    background-image: -moz-linear-gradient(top, #000000, #ffffff);
+    background-image: linear-gradient(to bottom, #000000, #ffffff);*/
 }
+
+#linksContainer tr{
+    margin-top: 10px; 
+}
+.linksDesc{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+#p1Td a,#p2Td a,#p3Td a{
+    color: #ffffff;
+    font-size: 24px;
+}
+/*#mainHead{
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+}*/
+#tableStartHead{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 20px;
+    color: #ffffff;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#BDBDBD), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #BDBDBD, #ffffff);
+    background-image: -moz-linear-gradient(top, #BDBDBD, #ffffff);
+    background-image: linear-gradient(to bottom, #BDBDBD, #ffffff);*/
+}
+/*#tableH1Connect{
+    /*width: 100%;*/
+    /*border: 1px solid #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #000000, #ffffff);
+    background-image: -moz-linear-gradient(top, #000000, #ffffff);
+    background-image: linear-gradient(to bottom, #000000, #ffffff);
+}*/
+table{
+    background-color: #000000;
+    border-collapse: collapse; 
+}
+#p1Td{
+    color: #ffffff;
+    background-color: #000719;
+}
+#p2Td{
+    color: #ffffff;
+    background-color: #820717;
+}
+#p3Td{
+    color: #ffffff;
+    background-color: #946A54;
+}
+/*.tilesTd{
+    width: 50%;
+}*/
 /*.mainLinksR{
     width: 50%;
     border: 1px solid;
